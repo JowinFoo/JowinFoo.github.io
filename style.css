@@ -5,7 +5,7 @@ box-sizing: border-box;
 
 body{
     margin: 5px;
-    background-color: deepskyblue;
+    background-color: tan;
 }
 
 .big_container{
@@ -16,14 +16,21 @@ padding:0 5 px;
 }
 
 .column01{
-flex:60%;
-max-width: 60%;
+flex:40%;
+max-width: 40%;
 padding: 9 10px;
 background-color: white;
+}
 
+.column02{
+flex:60%;
+max-width:60%;
+padding : 9 10px;
+background-color: violet;
 }
 
 .title_header{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150px;
 }
+
